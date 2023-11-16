@@ -104,34 +104,34 @@ button:hover{
 
 mid{
     display: flex; 
-    justify-content:flex;
+    justify-content:space-around;
     align-items: center;
     padding: 30px 5%;
     margin: 10px;
-    justify-content: space-between;
+    justify-content: ;
     flex-wrap: wrap
     
 }
 
 .page-description{
-    
+    display: flex;
     font-family: Montserrat,serif;
     font-weight: 500;
     flex-basis: 20rem;
     height: 200px;
     display: block;
     color: white;
+    justify-content: space-around;
     text-shadow: 0 0 10px white, 0 0 20px firebrick ;
     
 }
-.page-description h1{
-
+.page-description h4{
+    justify-content: flex-start;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .random_button{
     text-align: center;
-    margin: 10px;
-    
 }
 
 .page-description_image img{
@@ -140,9 +140,10 @@ mid{
     height: 150px; 
     border-radius: 50px;
     cursor:crosshair;
+    justify-content: end;
+    border: 1px solid white;
+    
 }
-
-
 
 .container{
     display: flex;
@@ -154,7 +155,6 @@ mid{
     justify-content: space-evenly;
     flex-wrap: wrap;
     
-    
 }
 
 .Random_info{
@@ -163,19 +163,14 @@ mid{
     text-align: center;
     margin-bottom: 20px;
     font-family: Montserrat,serif;
-    font-size: large;
+    font-size: 50px;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 50px;
     color: white;
     text-shadow: 0 0 10px white, 0 0 20px firebrick ;
-     
-    
-    
+     padding: 50px;
+     margin: 50px 0px;
 }
-
-
-
-
 
 .fimages img{
 
