@@ -22,15 +22,12 @@ body{
         top: 0;
         bottom: 0;
         z-index: -1;
-        
-
     }
 }
 
 .logo{
 
     width: 150px;
-    
 
 }
 
@@ -251,6 +248,34 @@ mid{
     background-color: ;
     margin: 10px;
     padding: 30px 5%;
+}
+
+.siteinfo {
+
+    margin: 150px 0px;
+    background-color: rgba(246, 138, 174, 0.235);
+    border-radius: 20px;
+    padding: 20px;
+}
+.siteinfo h2{
+
+    text-align: center;
+    font-family: Montserrat,serif;
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 20px firebrick ;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.siteinfo ul{
+    font-size: 20px;
+    margin: 50px;
+    text-decoration:wavy;
+    list-style-type:upper-roman;
+    font-family: Montserrat,serif;
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 20px firebrick ;
+    
 }
 
 .Random_Quote{   
