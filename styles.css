@@ -123,15 +123,47 @@ mid{
     color: white;
     justify-content: space-around;
     text-shadow: 0 0 10px white, 0 0 20px firebrick ;
+
+.frontpage{
+    animation: flicker 3s linear 0s  infinite normal none;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
     
 }
 .page-description h4{
     justify-content: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
+    animation: flicker 1s linear 0s  infinite normal none;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
 }
-.random_button{
+
+@keyframes flicker {
+
+    0%{ opacity: 1;}
+    20%{opacity: 0.4;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0.8;}
+    
+ }
+
+.random_button {
     text-align: center;
+}
+
+.random_button button{
+
+    animation:changecolor 2s ease-in 0s infinite ;
+}
+
+@keyframes changecolor {
+
+    0%{background-color: hotpink;}
+    50%{background-color:blue};
+    
+
+    
 }
 
 .page-description_image img{
@@ -170,7 +202,34 @@ mid{
     text-shadow: 0 0 10px white, 0 0 20px firebrick ;
      padding: 50px;
      margin: 50px 0px;
+    animation: slideinleft 5s ease-in-out 0s infinite normal none;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    
+     
 }
+
+@keyframes slideinleft {
+
+    0%{
+        transform:translateX(-700px);
+    }
+    25%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(700px);
+    }
+
+    75%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-700px);
+    }
+ }
+
+
 
 .fimages img{
 
