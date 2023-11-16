@@ -41,7 +41,7 @@ a,button {
     font-size: 15px;
     color: white;
     text-decoration: none;
-    text-shadow: 0 0 10px white, 0 0 20px firebrick ;
+    text-shadow: 0 0 10px white, 0 0 20px hotpink ;
 
 }
 
@@ -51,22 +51,18 @@ header{
     justify-content:flex;
     align-items: center;
     padding: 30px 5%;
-    border: gray solid 5px;
+    border: rgba(169, 0, 56, 0.415) solid 5px;
     margin: 10px;
-    background-color: #242424;
     height: 50px;
+    border-radius: 40px;
 
 }
-
-
-
 
 .logo{
     margin-right:auto;
     cursor: pointer;
     height: 50px;
     border-radius: 50px;
-    border: firebrick solid 2px;
     padding: 8px;
 }
 
@@ -94,7 +90,7 @@ header{
 
 button{
     padding: 9px 25px;
-    background-color: firebrick;
+    background-color: hotpink;
     border: none;
     border-radius: 50px;
     cursor:pointer;
@@ -192,7 +188,7 @@ mid{
 .fimages :hover{
 
     transform: translateY(10px);
-    border: firebrick solid 5px;
+    border: hotpink solid 10px;
 }
 
 .container2{
