@@ -230,16 +230,17 @@ mid{
 
 .fimages img{
 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 40px;
     transition: all 0.3s ease 0s;
+    border: solid white 2px ;
 }
 
 .fimages :hover{
 
     transform: translateY(10px);
-    border: hotpink solid 10px;
+    border: hotpink solid 20px;
 }
 
 .container2{
