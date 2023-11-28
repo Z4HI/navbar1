@@ -9,6 +9,44 @@
     
 }
 
+
+
+.selector{
+    display: block;
+    background-color: rgba(251, 108, 232, 0.709);
+    position: absolute;
+    z-index: 10;
+    top: 300px;
+    width: 100%;
+    text-align: center;
+    font-family: montserrat;
+    padding: 10px;
+}
+
+#team{
+    color: black;
+}
+#teamselected{
+    display:block;
+    padding: 10px;
+    
+
+    
+}
+
+
+.scroll img{
+    
+    justify-items: auto;
+    top: 100px;
+    left: -100px;
+   min-width: 50%;
+   height: 500px;
+   position: relative;
+   z-index: 1;
+   
+}
+
 body{
 
     #background-video{
@@ -21,7 +59,7 @@ body{
         right: 0;
         top: 0;
         bottom: 0;
-        z-index: -1;
+        z-index: -2;
     }
 }
 
@@ -43,15 +81,21 @@ a,button {
 }
 
 header{
-
+    position: fixed;
+    background:-webkit-radial-gradient(blue,rgb(103, 245, 228));
     display: flex;
     justify-content:flex;
     align-items: center;
     padding: 30px 5%;
-    border: rgba(169, 0, 56, 0.415) solid 5px;
+    border: rgba(71, 255, 240, 0.7) solid 10px;
     margin: 10px;
     height: 50px;
     border-radius: 40px;
+    z-index: 10;
+    opacity: .9;
+    width:98%;
+    
+    
 
 }
 
@@ -105,7 +149,6 @@ mid{
     align-items: center;
     padding: 30px 5%;
     margin: 10px;
-    justify-content: ;
     flex-wrap: wrap
     
 }
@@ -256,8 +299,6 @@ mid{
 
 .container2{
     display: block;
-    border: ;
-    background-color: ;
     margin: 10px;
     padding: 30px 5%;
 }

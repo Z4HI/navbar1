@@ -11,9 +11,7 @@
     </head>
 
     <body>
-        <video id="background-video" autoplay loop muted poster="images/krabs.jpg">
-            <source src="images/mylivewallpapers.com-Sunset-Sakura-Petals.mp4">
-            </video>
+      <div class="wrapper">
         <header>
             <img class="logo" src="images/zahi_logo.jpg" alt="zahi zahi_logo">
             <nav>
@@ -25,7 +23,24 @@
             </nav>
             <a class="cta" href="#"><button>Contact</button></a>
         </header>
+          <div class="scroll">
+            <img src="images/pinktree.png" alt="foreground" class="foreground">
+         </div>
+         <div class="selector">
+         <select id="teamoption">
+             <option value="">Select a Team</option>
+             <option value="heat">Heat</option>
+             <option value="suns">Suns</option>
+             <option value="nuggets">Nuggets</option>    
+         </select>
+         <h2 id="teamselected"></h2>
+         </div>
+        <script src="script.js"></script>
+        <video id="background-video" autoplay loop muted poster="images/krabs.jpg">
+            <source src="images/mylivewallpapers.com-Sunset-Sakura-Petals.mp4">
+            </video>
         <mid>
+
             <div class="page-description">
                 <h2 class="frontpage">This is my Front Page</h1>
                 <h4>My front page is supposed to look cool, The links dont work yet. This text is flickering. The one above me is more delayed. The button changes colors. The text below slides. All the animations use @keyframes</h2>
@@ -64,5 +79,6 @@
                 <h5 id="tw">-Thomas Wayne</h5>
             </div>
         </mid3>
+        </div>
     </body>
 </html>
